@@ -1,0 +1,16 @@
+.about{
+    margin: 70px;
+}
+.abouttop{
+    border-width: 1000%;
+    width: 400px;
+    height: 150px;
+    object-fit: cover;      
+}
+
+.aboutImg{
+    width: 400px;
+    height: 400px;
+    border-radius: 500%;
+    object-fit: cover;
+}
