@@ -8,6 +8,8 @@
     align-items: center;  
     z-index: 999;  
     font-family: "Josefin Sans", sans-serif;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
 }
 
 .topLeft,.topRight{
@@ -38,10 +40,11 @@
 }
 
 .topListItem{
-    margin-right: 20px;
-    font-size: 18px;
+    margin-right: 30px;
+    font-size: 17px;
     font-weight: 300;
-    cursor: pointer;
+    cursor: pointer;  
+    font-family: "Varela Round", sans-serif;
 }
 
 .topImg{

@@ -2,15 +2,25 @@
     margin: 70px;
 }
 .abouttop{
-    border-width: 1000%;
-    width: 400px;
-    height: 150px;
-    object-fit: cover;      
+    margin: 70px;     
 }
 
 .aboutImg{
-    width: 400px;
-    height: 400px;
-    border-radius: 500%;
+    display: block;
+    margin: 0%;
+    background-size: 500% 500%;
+    width: 1000px;
+    height: 500px;
     object-fit: cover;
+    text-align: center;
+}
+
+.aboutbottom{
+    display: block;
+    align-items: center;
+    background-color: aqua;
+
+}
+.aboutbottom > p{
+    padding: 30px;
 }
