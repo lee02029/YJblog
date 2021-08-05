@@ -10,7 +10,7 @@ export default function sidebar() {
                 alt=""
              />
              <p>
-                 I'm Liam Lee. I learn about React & Node JS 
+                 I'm YoonJae Lee. I learn about React & Node JS 
                  and hope to be backend developer. I appreciate it. 
              </p>
          </div>
@@ -22,10 +22,7 @@ export default function sidebar() {
                  </li>
                  <li className="sidebarListItem">
                      Node js
-                 </li>
-                 <li className="sidebarListItem">
-                     Computer
-                 </li>
+                 </li>               
                  <li className="sidebarListItem">
                      Database
                  </li>
