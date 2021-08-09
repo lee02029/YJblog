@@ -7,9 +7,7 @@
     display: flex;
     align-items: center;  
     z-index: 999;  
-    font-family: "Josefin Sans", sans-serif;
-    border-top: 1px solid #444444;
-    border-bottom: 1px solid #444444;
+    font-family: "Josefin Sans", sans-serif;    
 }
 
 .topLeft,.topRight{
