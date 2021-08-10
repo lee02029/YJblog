@@ -4,14 +4,14 @@ export default function sidebar() {
     return (
         <div className= "sidebar">
          <div className="sidebarItem">
-            <span className="sidebarTitle"></span>
+            <span className="sidebarTitle">About Me</span>
             <img 
                 src="img/sidebar.jpg"
                 alt=""
              />
              <p>
                  I'm YoonJae Lee. I learn about React & Node JS 
-                 and hope to be backend developer. I appreciate it. 
+                 and hope to be Frontend developer. I appreciate it. 
              </p>
          </div>
          <div className="sidebarItem">
@@ -21,7 +21,7 @@ export default function sidebar() {
                      React
                  </li>
                  <li className="sidebarListItem">
-                     Node js
+                     Node-js
                  </li>               
                  <li className="sidebarListItem">
                      Database

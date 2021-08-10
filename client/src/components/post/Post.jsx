@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./post.css"
 
-export default function post({img}) {
+export default function post({post}) {
     return (
         <div className="post">
       <img
@@ -24,11 +24,11 @@ export default function post({img}) {
         </div>
         <span className="postTitle">
           <Link to="/post/abc" className="link">
-            Lorem ipsum dolor sit amet
+          {post.title}
           </Link>
         </span>
         <hr />
-        <span className="postDate">1 hour ago</span>
+        <span className="postDate">{new Date(post.createdAt).toDateString()}</span>
       </div>
       <p className="postDesc">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
