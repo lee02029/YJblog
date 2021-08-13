@@ -4,14 +4,8 @@ export default function Header(){
     return (
         <div className="header">
             <div className="headerTitles">
-                <span className="headerTitleSm">SEblog</span>
-                <span className="headerTitleLg">developer</span>
+                <span className="headerTitle">Yoon Blog </span>
             </div>
-            <img 
-                className="headerImg" 
-                src= "img/home1.jpg" 
-                alt=""
-            />
         </div>
     );
 }

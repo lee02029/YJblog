@@ -1,6 +1,6 @@
 .top{
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: white;
     position: sticky;
     top: 0;
@@ -8,6 +8,7 @@
     align-items: center;  
     z-index: 999;  
     font-family: "Josefin Sans", sans-serif;    
+    border-bottom: solid 1px;
 }
 
 .topLeft,.topRight{
